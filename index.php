@@ -1,11 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD-with- PHP-OOP and MySQLi</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+include 'header.php';
+?>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>Serial</th>
+                            <th>Name</th>
+                            <th>Roll no </th>
+                            <th>Course</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Shivam</td>
+                            <td>1051</td>
+                            <td>B-Tech</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Shivam</td>
+                            <td>1051</td>
+                            <td>B-Tech</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Shivam</td>
+                            <td>1051</td>
+                            <td>B-Tech</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Shivam</td>
+                            <td>1051</td>
+                            <td>B-Tech</td>
+                        </tr>
+                    </table>
+                    <a href="create.php" class="btn btn-success">Create</a>
+                </div>
+
+<?php
+    include 'footer.php';
+?>
+                
