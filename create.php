@@ -1,5 +1,7 @@
 <?php
   include 'header.php';
+
+  $db = new Database();
 ?>
 <div class="card-body">
 <form action="/action_page.php">
